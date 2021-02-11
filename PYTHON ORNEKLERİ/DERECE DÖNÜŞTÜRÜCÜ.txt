@@ -1,0 +1,20 @@
+print("hangi sıcaklık birimi gireceksiniz")
+print("celcius icin 1 e basınız")
+print("fahrenheit icin 2 e basınız")
+print("kelvin icin 3 e basınız")
+a=int(input("seciminizi yapınız"))
+if a==1:    
+    b=int(input("sıcaklık degerini giriniz"))
+    c=float((b*5-38)/9)
+    d=float(b+273)
+    print('%d derece %.2f fahrenheit ve %.2f kelvindir ' % (b,c,d))
+if a==2:
+    e=float(input("sıcaklık degerini giriniz"))
+    f=float(((e-32)*5)/9)
+    g=float((((e-32)*5)/9)+273)      
+    print('%.1f fahrenheit %d derece %.2f kelvindir'% (e,f,g))
+if a==3:
+    h=int(input("sıcaklık degerini giriniz"))
+    j=float(h-273)
+    k=float((9*j)/5)+32
+    print('%.1f kelvin %d derece ve %.2f fahrenheittir' % (h,j,k))  

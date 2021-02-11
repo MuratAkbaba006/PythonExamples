@@ -1,0 +1,7 @@
+a=1
+while a==1:
+    sayi=int(input("bir sayi giriniz"))
+    if sayi%2==0 :
+        print("girdiginiz sayi çifttir")
+    elif sayi%2==1 :
+        print("girdiðiniz sayi tektir")    

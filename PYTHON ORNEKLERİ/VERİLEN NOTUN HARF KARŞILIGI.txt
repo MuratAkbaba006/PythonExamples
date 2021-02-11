@@ -1,0 +1,23 @@
+a=int(input("notunuzu giriniz"))
+if a>=85 :
+    print("MUSTAFA SEN MÝSÝN?")
+elif 85>a>=75  :
+    print("HARF NOTUNUZ BA")
+elif 75>a>=65:
+    print("HARF NOTUNUZ BB")
+elif 65>a>=57:
+    print("HARF NOTUNUZ CB")     
+elif 57>a>=50:
+    print("HARF NOTUNUZ CC")
+elif 50>a>=45:
+    print("HARF NOTUNUZ DC")
+elif 45>a>=40:
+    print("HARF NOTUNUZ DD")
+elif 40>a>=30:
+    print("HARF NOTUNUZ FD")
+elif 30>a>=0:
+    print("HARF NOTUNUZ FF")
+else :
+    print("NOTUNUZU RAKAM OLARAK GÝRÝNÝZ")
+
+

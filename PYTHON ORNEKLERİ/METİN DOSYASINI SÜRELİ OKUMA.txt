@@ -1,0 +1,6 @@
+import time 
+with open('/Users/sony/Desktop/hoppa.txt','r') as f:
+    for i in range(69):
+        print(f.read(1))
+        time.sleep(2)
+ 
